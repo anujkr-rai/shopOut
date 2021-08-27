@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&subset=latin,cyrillic" rel="stylesheet" type="text/css">
+    <script src="https://use.fontawesome.com/1b82adfb63.js"></script>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet"> 
+
+    
+
+  </head>
+  <body>
+    {{> header}}  <!-- contains the header.hbs file in partials in this syntax-->
+
+
+<ul class="nav nav-pills">
+  <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle " data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Categories</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="/">All</a></li>
+       <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="/groceries">Groceries</a></li>
+      <li><a class="dropdown-item" href="/electronics">Electronics</a></li>
+      <li><a class="dropdown-item" href="/games">Games</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script><!-- body contains code of all other hbs files -->
+    <div class="container"><!--bootstrap responsive page basically in index.hbs file-->
+        {{{body}}}
+    </div>
+<!-- these links are always used so that so that javascript and jquery can be used -->
+    <script src="https://use.fontawesome.com/f9359bbdee.js"></script>
+    <script src="https://kit.fontawesome.com/f07897f2eb.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/46062a0428.js" crossorigin="anonymous"></script>
+    {{!-- <script src="https://unpkg.com/popper.js@1.12.5/dist/umd/popper.js" integrity="sha384-KlVcf2tswD0JOTQnzU4uwqXcbAy57PvV48YUiLjqpk/MJ2wExQhg9tuozn5A1iVw" crossorigin="anonymous"></script> --}}
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+    <div>
+      <hr>
+    </div>
+
+  </body>
+</html>

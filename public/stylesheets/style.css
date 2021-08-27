@@ -1,0 +1,122 @@
+.main {
+    margin-top: 10px;
+}
+
+.icon{
+    float: left;
+}
+
+.hover :hover{
+    background-color: brown;
+}
+
+
+.thumbnail img{
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    padding: auto;
+}
+
+.thumbnail description {
+    color: #7f7f7f;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.price-cart {
+    margin: auto;
+}
+
+.border {
+    border-color: 2px solid red;
+}
+
+.checkout {
+    margin-top: 30px;
+    width: auto;
+}
+
+.newclass {
+
+    margin-top: 30px;
+    width: 500px;
+
+}
+
+.total {
+    margin-left: auto;
+}
+
+/* .navbar{
+    background-image: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") ;
+
+} */
+
+.navbar-brand {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+body {
+    background-image: url("https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.signup {
+        background-color: #F3EBF6;
+        padding: 1.5em;
+        font-family: 'Calistoga', cursive;
+        align-content: flex-start;
+        width: 600px;
+        height: 550px;
+        margin: 8em auto;
+        border-radius: 1.5em;
+        box-shadow: 5px 15px 40px 7px rgba(0, 0, 0, 0.14);
+}
+
+
+.login {
+        background-color: #fae4a6;
+        font-family: 'Calistoga', cursive;
+        padding: 1.5em;
+        width: 550px;
+        height: 500px;
+        margin: 7em auto;
+        border-radius: 1.5em;
+        box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+
+.checkout {
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8450
+    /* font-family: 'Fredoka One', cursive; */
+}
+
+.cart {
+
+    max-width: 500px;
+    padding: auto;
+    background: #f4f7f8;
+    margin: auto;
+    margin-top: 15px;
+    padding: 20px ;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+
+
+
